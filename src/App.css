@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(67, 78, 78);
+  color: rgb(255, 255, 255);
+}
+
+.nav-links{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+ul li, Link, nav, a {
+  color:white;
+  text-decoration: none;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.my-10{
+  margin:10px 0px;
+}
+
+
+th, td, tr {
+  padding: 10px;
+}
